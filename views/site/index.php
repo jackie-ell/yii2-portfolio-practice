@@ -3,38 +3,50 @@
 /* @var $this yii\web\View */
 
 $this->title = 'Yii 2 Portfolio';
+
 ?>
 <div class="site-index">
 
     <div class="jumbotron">
-        <h1>!</h1>
+        <h1>Jackie Ellenberger</h1>
 
-        <p class="lead">You have successfully created your Yii-powered application.</p>
+        <p>Full-Stack developer in the Vancouver area.</p>
 
     </div>
 
     <div class="body-content">
 
         <div class="row">
-            <div class="col-lg-6">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
+            <div class="col-xs-12 col-md-4">
+              <div class="thumbnail">
+                <img src="<?php echo Yii::getAlias('@web').'/assets/images/code-drillz.png' ?>" alt="natural disaster img" class="img-thumbnail project"/>
+                <div class="caption">
+                  <h3>Code Drillz</h3>
+                  <p>A quizzing site made to test users in various tech-related topics. This was a collaborative project created with Ruby on Rails, Bootstrap, HTML, CSS and JavaScript. My role involved creating and managing Rails controllers, and preparing views for the front-end team to style.</p>
+                  <p><a class="btn btn-primary" href="https://railsonfire.herokuapp.com/">View &raquo;</a></p>
+                  <p><a class="btn btn-default" href="https://github.com/jackie-ell/ROF">Source &raquo;</a></p>
+                </div>
+              </div>
             </div>
-            <div class="col-lg-6">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
+            <div class="col-xs-12 col-md-4">
+              <div class="thumbnail">
+                <img src="https://raw.githubusercontent.com/jackie-ell/natural-disasters/master/public/images/Screen%20Shot%202017-09-13%20at%201.11.04%20PM.png" alt="natural disaster img" class="img-thumbnail project"/>
+                <div class="caption">
+                  <h3>Natural Disaster API</h3>
+                  <p>An API that allows developers to quickly fetch thousands of rows of data on various natural disasters. The data is formatted in GeoJSON which allows it to be imported into the Google Maps API. This was a personal project created with Node.js, Express.js, and MongoDB, with a heavy emphasis on data scrapers.</p>
+                  <p><a class="btn btn-default" href="https://github.com/jackie-ell/natural-disasters">Source &raquo;</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <div class="thumbnail">
+                <img src="https://raw.githubusercontent.com/jackie-ell/natural-disasters-spa/master/public/Screen%20Shot%202017-09-07%20at%2012.08.15%20PM.png" alt="natural disaster spa img" class="img-thumbnail project"/>
+                <div class="caption">
+                  <h3>Natural Disaster SPA</h3>
+                  <p>Single page frontend application to show off my natural disasters API. This project was built with HTML5, CSS3, and JavaScript.</p>
+                  <p><a class="btn btn-default" href="https://github.com/jackie-ell/natural-disasters">Source &raquo;</a></p>
+                </div>
+              </div>
             </div>
         </div>
 

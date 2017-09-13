@@ -113,3 +113,8 @@ a.desc:after {
 .nav > li > form > button.logout:focus {
     outline: none;
 }
+
+img.img-thumbnail.project {
+  width: 100%;
+  height: 200px;
+}
