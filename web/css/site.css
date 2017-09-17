@@ -163,6 +163,7 @@ img.img-thumbnail.project:hover {
 
 .soc-media a {
   color: black;
+  transition: color 0.4s ease;
 }
 
 .soc-media a:hover {
