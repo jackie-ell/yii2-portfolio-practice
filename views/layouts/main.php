@@ -42,7 +42,8 @@ AppAsset::register($this);
         'items' => [
             ['label' => 'Home', 'url' => ['/site/index']],
             ['label' => 'About', 'url' => ['/site/about']],
-            ['label' => 'GitHub', 'url' => ['https://github.com/jackie-ell/']]
+            ['label' => 'GitHub', 'url' => 'https://github.com/jackie-ell/'],
+            ['label' => 'LinkedIn', 'url' => 'https://linkedin.com/in/jackie-ell/']
         ],
     ]);
     NavBar::end();
@@ -58,8 +59,6 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
-        <p class="pull-left">&copy; My Company <?= date('Y') ?></p>
-
         <p class="pull-right"><?= Yii::powered() ?></p>
     </div>
 </footer>
