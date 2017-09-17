@@ -37,9 +37,7 @@ AppAsset::register($this);
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
             ['label' => 'Home', 'url' => ['/site/index']],
-            ['label' => 'About', 'url' => ['/site/about']],
-            ['label' => 'GitHub', 'url' => 'https://github.com/jackie-ell/'],
-            ['label' => 'LinkedIn', 'url' => 'https://linkedin.com/in/jackie-ell/']
+            ['label' => 'About', 'url' => ['/site/about']]
         ],
     ]);
     NavBar::end();

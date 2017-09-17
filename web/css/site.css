@@ -155,3 +155,21 @@ img.img-thumbnail.project:hover {
 
   display: none;
 }
+
+.soc-media {
+  display: flex;
+  justify-content: space-around;
+}
+
+.soc-media a {
+  color: black;
+}
+
+.soc-media a:hover {
+  color: lightblue;
+  text-decoration: none;
+}
+
+.soc-media a span.fa {
+  padding: 5px;
+}
