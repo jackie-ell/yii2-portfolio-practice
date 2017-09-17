@@ -21,10 +21,6 @@ AppAsset::register($this);
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
-    <?php $this->registerJsFile(
-      '@web/js/main.js',
-      ['depends' => [\yii\web\JqueryAsset::className()]]);
-    ?>
 </head>
 <body>
 <?php $this->beginBody() ?>
