@@ -23,8 +23,10 @@ $this->title = 'Yii 2 Portfolio';
                 <div class="caption">
                   <h3>Code Drillz</h3>
                   <p>A quizzing site made to test users in various tech-related topics. This was a collaborative project created with Ruby on Rails, Bootstrap, HTML, CSS and JavaScript. My role involved creating and managing Rails controllers, and preparing views for the front-end team to style.</p>
-                  <p><a class="btn btn-primary" href="https://railsonfire.herokuapp.com/">View &raquo;</a></p>
-                  <p><a class="btn btn-default" href="https://github.com/jackie-ell/ROF">Source &raquo;</a></p>
+                  <p>
+                    <a class="btn btn-primary" href="https://railsonfire.herokuapp.com/">View &raquo;</a>
+                    <a class="btn btn-default" href="https://github.com/jackie-ell/ROF">Source &raquo;</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -48,6 +50,12 @@ $this->title = 'Yii 2 Portfolio';
                 </div>
               </div>
             </div>
+        </div>
+
+        <div class="overlay">
+          <div class="pic-box">
+            <img id="blowup-pic" src="" alt="blow up pic">
+          </div>
         </div>
 
     </div>
