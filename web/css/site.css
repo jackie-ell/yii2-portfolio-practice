@@ -174,3 +174,7 @@ img.img-thumbnail.project:hover {
 .soc-media a span.fa {
   padding: 5px;
 }
+
+#prof-pic {
+  max-width: 100%;
+}

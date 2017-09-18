@@ -12,8 +12,8 @@ $this->title = 'Jackie Ellenberger';
 
         <p>Full-Stack developer in the Vancouver area.</p>
         <div class="container soc-media">
-          <p><a href="https://github.com/jackie-ell"><span class="fa fa-github"></span>Github</a></p>
-          <p><a href="https://www.linkedin.com/in/jackie-ell/"><span class="fa fa-linkedin"></span>LinkedIn</a></p>
+          <p><a href="https://github.com/jackie-ell"><span class="fa fa-github"></span>GitHub</a></p>
+          <p><a href="https://www.linkedin.com/in/jackie-ell/"><span class="fa fa-linkedin-square"></span>LinkedIn</a></p>
           <p><a href="https://angel.co/jackie-ellenberger"><span class="fa fa-angellist"></span>AngelList</a></p>
           <p><a href="mailto:jackie.ellenberger@gmail.com"><span class="fa fa-envelope"></span>Email</a></p>
         </div>

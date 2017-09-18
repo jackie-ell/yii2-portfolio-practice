@@ -9,9 +9,24 @@ $this->title = 'About me';
 <div class="site-about">
     <h1><?= Html::encode($this->title) ?></h1>
 
-    <p>
-      A web developer who lives for those “Eureka!” moments. When I’m not coding I’m playing table-top and board games.
-    </p>
+    <div class="row">
+      <div class="col-xs-3">
+        <img src="<?php echo Yii::getAlias('@web').'/assets/images/jackie.jpg' ?>" alt="Jackie" id="prof-pic" class="img-rounded">
+      </div>
+      <div class="col-xs-9">
+        <h4>Jackie Ellenberger</h4>
+        <p>
+          A web developer who lives for those “Eureka!” moments. When I’m not coding I’m playing table-top and board games.
+        </p>
+        <p>
+          I began coding in highschool, where I taught myself Java and C++.
+          I enjoyed the puzzle solving aspect of programming, so I took my studies further by entering the Computer Science
+          program at Douglas College. When I finished my 2-year diploma at the college, I still wanted to further my knowledge
+          of web development. I discovered Code Core where I earned a certification in web development.
+        </p>
+      </div>
+    </div>
+
 
     <h3>Technical Skills</h3>
     <p><strong>Languages:</strong> Ruby, HTML5 &amp; CSS3, JavaScript, AJAX, JSON, PHP</p>
