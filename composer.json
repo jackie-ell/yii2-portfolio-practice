@@ -21,7 +21,9 @@
         "rmrevin/yii2-fontawesome": "~2.17",
 
         "yiisoft/yii2-debug": "~2.0.0",
-        "yiisoft/yii2-gii": "~2.0.0"
+        "yiisoft/yii2-gii": "~2.0.0",
+        "fxp/composer-asset-plugin": "^1.4",
+        "ext-gd": "*"
     },
     "require-dev": {
         "yiisoft/yii2-faker": "~2.0.0",
