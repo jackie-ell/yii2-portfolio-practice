@@ -22,7 +22,7 @@ $this->title = 'Jackie Ellenberger';
 
 
     <div class="body-content">
-        <div class="row">
+        <div class="row project-list">
             <div class="col-xs-12 col-md-4">
               <div class="thumbnail">
                 <img src="<?php echo Yii::getAlias('@web').'/assets/images/code-drillz.png' ?>" alt="natural disaster img" class="img-thumbnail project"/>
@@ -64,6 +64,20 @@ $this->title = 'Jackie Ellenberger';
                   <h3>Natural Disaster SPA</h3>
                   <p>Single page front-end application to demonstrate my Natural Disasters API by importing the data into the Google Maps API. This project was built with HTML5, CSS3, and JavaScript.</p>
                   <p><a class="btn btn-default" href="https://github.com/jackie-ell/natural-disasters">Source &raquo;</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <div class="thumbnail">
+                <img src="https://raw.githubusercontent.com/jackie-ell/github-top5-list/master/public/image.png" alt="github top5 img" class="img-thumbnail project"/>
+                <div class="caption">
+                  <span class="label label-primary">Ruby on Rails</span>
+                  <span class="label label-primary">HTML5 &amp; CSS3</span>
+                  <span class="label label-primary">JavaScript</span>
+                  <span class="label label-primary">GitHub API</span>
+                  <h3>GitHub Top 5</h3>
+                  <p>Allows the user to insert a GitHub username in the url, which then shows the GitHub user's top 5 repositories. This project was built in Ruby on Rails and used the GitHub API. Some challenges included caching API results to avoid the rate limit.</p>
+                  <p><a class="btn btn-default" href="https://github.com/jackie-ell/github-top5-list">Source &raquo;</a></p>
                 </div>
               </div>
             </div>

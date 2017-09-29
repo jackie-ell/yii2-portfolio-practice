@@ -178,3 +178,8 @@ img.img-thumbnail.project:hover {
 #prof-pic {
   max-width: 100%;
 }
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+}
