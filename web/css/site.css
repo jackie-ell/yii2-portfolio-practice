@@ -192,3 +192,7 @@ img.img-thumbnail.project:hover {
 .hide {
   display: none;
 }
+
+#filter-reset:hover {
+  cursor: pointer;
+}

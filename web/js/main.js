@@ -1,7 +1,10 @@
+//TODO: Remove redundent code
+
 $(document).ready(() => {
   picBlowup()
   createFilters()
   filterBtns()
+  filterReset()
 })
 
 function picBlowup(){
@@ -37,40 +40,54 @@ function createFilters(){
 function filterBtns(){
   $('.filter-btn').on('click', (event) => {
     let {currentTarget} = event
-    let filter = currentTarget.innerHTML
     let projects = $('.row.project-list .thumbnail')
 
     $(currentTarget).toggleClass('label-default')
     $(currentTarget).toggleClass('label-primary')
 
-    for(project of projects) {
+    let filters = []
+    let filterList = $('#filter-list a.label.label-primary')
 
+    for(filter of filterList){
+      filters.push(filter.innerHTML)
+    }
+
+
+    for(project of projects) {
       let filtFound = false
       let labels = project.children[1].children
 
       for(label of labels) {
-        if(label.innerHTML === filter){
+        if(filters.includes(label.innerHTML)){
           filtFound = true
           continue
         }
       }
-      // console.log(label.innerHTML, filter, label.innerHTML === filter, filtFound)
 
       if(!filtFound){
         $(project.parentElement).addClass('hide')
       } else {
         $(project.parentElement).removeClass('hide')
       }
-
-      // if(label.innerHTML === filter){
-      //   let project = label.parentElement.parentElement
-      //   $(project).addClass('hide')
-      // }
-
     }
   })
 }
 
+function filterReset(){
+  $('#filter-reset').on('click', () => {
+    let filterList = $('#filter-list a.label.label-primary')
+    let projects = $('.row.project-list .thumbnail')
+
+    for(label of filterList){
+      $(label).removeClass('label-primary')
+      $(label).addClass('label-default')
+    }
+
+    for(project of projects) {
+      $(project.parentElement).removeClass('hide')
+    }
+  })
+}
 
 
 

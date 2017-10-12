@@ -24,7 +24,7 @@ $this->title = 'Jackie Ellenberger';
     <div class="body-content">
       <div class="panel panel-default">
         <div id="filter-list" class="panel-body">
-
+          <span id="filter-reset" class="glyphicon glyphicon-repeat"></span>
         </div>
       </div>
         <div class="row project-list">
