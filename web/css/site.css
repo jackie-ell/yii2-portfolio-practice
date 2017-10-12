@@ -193,6 +193,14 @@ img.img-thumbnail.project:hover {
   display: none;
 }
 
+#filter-reset {
+  transition-duration: 0.8s;
+  transition-property: transform;
+}
+
 #filter-reset:hover {
   cursor: pointer;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  color: lightblue;
 }
