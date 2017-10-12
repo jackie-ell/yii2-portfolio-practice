@@ -78,6 +78,7 @@ $this->title = 'Jackie Ellenberger';
                 <div class="caption">
                   <span class="label label-primary">Ruby on Rails</span>
                   <span class="label label-primary">HTML5 &amp; CSS3</span>
+                  <span class="label label-primary">Bootstrap</span>
                   <span class="label label-primary">JavaScript</span>
                   <span class="label label-primary">GitHub API</span>
                   <h3>GitHub Top 5</h3>

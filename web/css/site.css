@@ -188,3 +188,7 @@ img.img-thumbnail.project:hover {
   display:flex;
   justify-content: space-around;
 }
+
+.hide {
+  display: none;
+}
