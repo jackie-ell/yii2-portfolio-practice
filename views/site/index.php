@@ -22,6 +22,11 @@ $this->title = 'Jackie Ellenberger';
 
 
     <div class="body-content">
+      <div class="panel panel-default">
+        <div id="filter-list" class="panel-body">
+
+        </div>
+      </div>
         <div class="row project-list">
             <div class="col-xs-12 col-md-4">
               <div class="thumbnail">

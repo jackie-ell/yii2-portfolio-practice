@@ -183,3 +183,8 @@ img.img-thumbnail.project:hover {
   display: flex;
   flex-wrap: wrap;
 }
+
+#filter-list {
+  display:flex;
+  justify-content: space-around;
+}
