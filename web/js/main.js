@@ -52,22 +52,27 @@ function filterBtns(){
       filters.push(filter.innerHTML)
     }
 
-
-    for(project of projects) {
-      let filtFound = false
-      let labels = project.children[1].children
-
-      for(label of labels) {
-        if(filters.includes(label.innerHTML)){
-          filtFound = true
-          continue
-        }
-      }
-
-      if(!filtFound){
-        $(project.parentElement).addClass('hide')
-      } else {
+    if(filters.length === 0){
+      for(project of projects){
         $(project.parentElement).removeClass('hide')
+      }
+    } else {
+      for(project of projects) {
+        let filtFound = false
+        let labels = project.children[1].children
+
+        for(label of labels) {
+          if(filters.includes(label.innerHTML)){
+            filtFound = true
+            continue
+          }
+        }
+
+        if(!filtFound){
+          $(project.parentElement).addClass('hide')
+        } else {
+          $(project.parentElement).removeClass('hide')
+        }
       }
     }
   })
