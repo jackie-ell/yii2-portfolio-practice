@@ -83,7 +83,10 @@ $this->title = 'Jackie Ellenberger';
                   <span class="label label-primary">GitHub API</span>
                   <h3>GitHub Top 5</h3>
                   <p>Allows the user to search on a GitHub username they put into the URL. The page then shows the given GitHub user's top 5 repositories, sorted by various parameters. This project was built in Ruby on Rails and used the GitHub API. Some challenges included caching API results to avoid the rate limit.</p>
-                  <p><a class="btn btn-default" href="https://github.com/jackie-ell/github-top5-list">Source &raquo;</a></p>
+                  <p>
+                    <a class="btn btn-primary" href="https://git-top5.herokuapp.com/jackie-ell">View &raquo;</a>
+                    <a class="btn btn-default" href="https://github.com/jackie-ell/github-top5-list">Source &raquo;</a>
+                  </p>
                 </div>
               </div>
             </div>
