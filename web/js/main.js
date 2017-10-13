@@ -14,7 +14,7 @@ function picBlowup(){
 
     $('#blowup-pic').attr('src', pic)
 
-    $('.overlay').css('display', 'block')
+    $('.overlay').removeClass('display', 'block')
     $('.overlay').find('*').css('display', 'flex')
   })
 
@@ -37,6 +37,14 @@ function createFilters(){
   }
 }
 
+function resetProjects() {
+  let projects = $('.row.project-list .thumbnail')
+
+  for(project of projects){
+    $(project.parentElement).removeClass('hide')
+  }
+}
+
 function filterBtns(){
   $('.filter-btn').on('click', (event) => {
     let {currentTarget} = event
@@ -53,9 +61,7 @@ function filterBtns(){
     }
 
     if(filters.length === 0){
-      for(project of projects){
-        $(project.parentElement).removeClass('hide')
-      }
+      resetProjects()
     } else {
       for(project of projects) {
         let filtFound = false
@@ -81,16 +87,13 @@ function filterBtns(){
 function filterReset(){
   $('#filter-reset').on('click', () => {
     let filterList = $('#filter-list a.label.label-primary')
-    let projects = $('.row.project-list .thumbnail')
 
     for(label of filterList){
       $(label).removeClass('label-primary')
       $(label).addClass('label-default')
     }
 
-    for(project of projects) {
-      $(project.parentElement).removeClass('hide')
-    }
+    resetProjects()
   })
 }
 
