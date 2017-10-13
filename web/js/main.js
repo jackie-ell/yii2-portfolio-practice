@@ -9,12 +9,11 @@ $(document).ready(() => {
 
 function picBlowup(){
   $('img.img-thumbnail.project').on('click', (event) => {
-
     let pic = event.currentTarget.src;
 
     $('#blowup-pic').attr('src', pic)
 
-    $('.overlay').removeClass('display', 'block')
+    $('.overlay').css('display', 'block')
     $('.overlay').find('*').css('display', 'flex')
   })
 
