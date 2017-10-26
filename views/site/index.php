@@ -90,6 +90,22 @@ $this->title = 'Jackie Ellenberger';
                 </div>
               </div>
             </div>
+            <div class="col-xs-12 col-md-4">
+              <div class="thumbnail">
+                <img src="https://lh3.googleusercontent.com/R-nibyCJKb1JobySBMA_MtI-1MJLumu_riUfVfxR5WOAdpqpnLPXBDOR0STaskDph80RXdTT=w640-h400-e365" alt="github top5 img" class="img-thumbnail project"/>
+                <div class="caption">
+                  <span class="label label-primary">HTML5 &amp; CSS3</span>
+                  <span class="label label-primary">JavaScript</span>
+                  <span class="label label-primary">Chrome API</span>
+                  <h3>Sound Destroyer Extension</h3>
+                  <p>This Google Chrome Extension mutes any noisy, inactive tabs that aren't on the user's "trusted sites" list. This is a personal, front-end project that was built with HTML5, CSS3, and JavaScript.</p>
+                  <p>
+                    <a class="btn btn-primary" href="https://chrome.google.com/webstore/detail/sound-destroyer/pekienofpgmnhgaeommfoemmnimpaelk">View &raquo;</a>
+                    <a class="btn btn-default" href="https://github.com/jackie-ell/sound-destroyer-ext">Source &raquo;</a>
+                  </p>
+                </div>
+              </div>
+            </div>
         </div>
 
         <div class="overlay">
